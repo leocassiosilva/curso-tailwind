@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Tailwind output (evita rastrear o CSS gerado automaticamente)
+src/output.css
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# VSCode settings (opcional)
+.vscode/
