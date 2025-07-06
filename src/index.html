@@ -8,12 +8,32 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body class="m-8">
-    <div class="grid grid-cols-3 gap-4 *:bg-gray-300 *:p-4">
-        <div class="col-span-full"> Item 1</div>
-        <div class="col-span-2 row-span-2"> Item 2</div>
-        <div> Item 3</div>
-        <div> Item 4</div>
+    <div class="grid gap-12">
+        <header class="grid grid-cols-[1fr_auto]">
+            <a href="#" class="text-blue-500 hover:text-blue-700">Nivacraft</a>
+            <ul class="grid grid-cols-2 gap-8">
+                <li><a href="/">Bicicletas</a></li>
+                <li><a href="/">Contato</a></li>
+            </ul>
+        </header>
+        <div class="grid grid-cols-3 gap-8">
+            <h1>Produtos A</h1>
+            <p class="col-span-2">Texto aqui</p>
+        </div>
+        <section class="grid grid-cols-3 gap-8"> 
+            <div class="grid gap-4">  
+                <img src="./img/notebook.jpg" alt="Notebook" class="">
+                <h2 class="text-2xl font-bold">Notebook Gamer</h2>
+            </div>
+            <div class="grid gap-4"> 
+                <img src="./img/camera.jpg" alt="Notebook" class="">
+                <h2 class="text-2xl font-bold">Notebook Gamer</h2>
+            </div>
+            <div class="grid gap-4"> 
+                <img src="./img/tablet.jpg" alt="Notebook" class="">
+                <h2 class="text-2xl font-bold">Notebook Gamer</h2>
+            </div>
+        </section>
     </div>
-
 </body>
 </html>
