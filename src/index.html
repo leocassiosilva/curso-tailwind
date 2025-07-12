@@ -8,34 +8,22 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 
-<body class="m-8 bg-lime-950">
-<section class="bg-lime-950">
-<p class="text-lime-400 uppercase text-sm tracking-widest text-center mb-4">Conecte-se com a natureza</p>
-<h2 class="capitalize font-serif text-white text-3xl mb-8 mx-auto text-center max-w-3xl md:text-6xl md:mb-8">Cada Som, Cada Momento, Uma Nova Descoberta</h2>
-
-<div class="flex flex-col gap-8 md:flex-row justify-center mx-auto">
-    <div class="bg-lime-900 p-6 md:p-4 rounded-3xl grid gap-4">
-        <h3 class="text-lime-500 font-serif text-2xl">Lua Nova</h3>
-            <p class="text-white text-5xl font-serif font-bold">23</p>
-            <p class="text-white text-xl">Março 2049</p>
-            <p class="text-lime-300 text-balance">Melhor período para observação astrônomica. O céu estará claro e as estrelas visíveis.</p>
-
-        <a class="bg-lime-950 rounded-full py-2 px-4 text-white justify-self-start">Reservar 15/04</a>
-
-    </div>
-    <div class="flex gap-8">
-        <div class="bg-lime-900 p-6 rounded-3xl grid gap-4">
-
-            <h3 class="text-lime-500 font-serif text-2xl"> Aurora Boreal</h3>
-            <p class="text-white text-5xl font-serif font-bold">15</p>
-            <p class="text-white text-xl">Abril 2049</p>
-            <p class="text-lime-300 text-balance">Melhor período para observação astrônomica. O céu estará claro e as estrelas visíveis.</p>
-            <a class="bg-lime-950 rounded-full py-2 px-4 text-white justify-self-start">Reservar 15/04</a>
-        </div>
-    </div>
+<body class="m-8">
+<div class="dark:bg-neutral-200 group hover:bg-neutral-800 p-4 md:p-4 rounded-3xl grid gap-2">
+    <h3 class="text-lime-500 font-serif text-2xl group-hover:text-neutral-200">Lua Nova</h3>
+    <p class="text-lime-300 text-balance group-hover:text-neutral-200">Melhor período para observação astrônomica. O céu estará claro e as estrelas visíveis.</p>
 </div>
-
-
-</section>
+<div>
+    <form class="flex flex-col gap-4">
+        <div>
+            <input type="text" class="border-2 p-2 focus:border-amber-400 bg-amber-100 m-8 rounded-md peer" placeholder="Digite algo...">
+            <p class="hidden peer-focus:block">Texto</p>
+        </div>
+        <div>
+            <input type="text" class="border-2 p-2 focus:border-amber-400 bg-amber-100 m-8 rounded-md peer" placeholder="Digite algo...">
+            <p class="hidden peer-focus:block">Texto</p>
+        </div>
+    </form>
+</div>
 </body>
 </html>
