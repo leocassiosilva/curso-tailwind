@@ -9,21 +9,73 @@
 </head>
 
 <body class="m-8">
-<div class="dark:bg-neutral-200 group hover:bg-neutral-800 p-4 md:p-4 rounded-3xl grid gap-2">
-    <h3 class="text-lime-500 font-serif text-2xl group-hover:text-neutral-200">Lua Nova</h3>
-    <p class="text-lime-300 text-balance group-hover:text-neutral-200">Melhor período para observação astrônomica. O céu estará claro e as estrelas visíveis.</p>
+<!-- codigo -->
+<div class="grid gap-4 mt-8 max-w-lg mx-auto">
+  <h2 class="font-bold uppercase tracking-wide">Escolha a sua</h2>
+
+  <div>
+    <input
+      type="radio"
+      name="produto"
+      value="nimbus"
+      id="nimbus"
+      class="peer mr-1"
+    />
+    <label
+      for="nimbus"
+      class="inline-grid grid-cols-[200px_auto] bg-slate-200 peer-checked:bg-slate-400 hover:bg-slate-300 cursor-pointer p-2 rounded-md mb-2"
+      >Nimbus Stark <span>R$ 4999</span></label
+    >
+    <ul class="bg-slate-200 rounded-md p-2 ml-5 hidden peer-checked:block">
+      <li>Motor Elétrico</li>
+      <li>Fibra de Carbono</li>
+      <li>50 km/h</li>
+      <li>Rastreador</li>
+    </ul>
+  </div>
+
+  <div>
+    <input
+      type="radio"
+      name="produto"
+      value="magic"
+      id="magic"
+      class="peer mr-1"
+    />
+    <label
+      for="magic"
+      class="inline-grid grid-cols-[200px_auto] bg-slate-200 peer-checked:bg-slate-400 hover:bg-slate-300 cursor-pointer p-2 rounded-md mb-2"
+      >Magic Might <span>R$ 2499</span></label
+    >
+    <ul class="bg-slate-200 rounded-md p-2 ml-5 hidden peer-checked:block">
+      <li>Motor Elétrico</li>
+      <li>Fibra de Carbono</li>
+      <li>45 km/h</li>
+      <li>Rastreador</li>
+    </ul>
+  </div>
+
+  <div>
+    <input
+      type="radio"
+      name="produto"
+      value="nebula"
+      id="nebula"
+      class="peer mr-1"
+    />
+    <label
+      for="nebula"
+      class="inline-grid grid-cols-[200px_auto] bg-slate-200 peer-checked:bg-slate-400 hover:bg-slate-300 cursor-pointer p-2 rounded-md mb-2"
+      >Nebula Cosmic <span>R$ 3999</span></label
+    >
+    <ul class="bg-slate-200 rounded-md p-2 ml-5 hidden peer-checked:block">
+      <li>Motor Elétrico</li>
+      <li>Fibra de Carbono</li>
+      <li>40 km/h</li>
+      <li>Rastreador</li>
+    </ul>
+  </div>
 </div>
-<div>
-    <form class="flex flex-col gap-4">
-        <div>
-            <input type="text" class="border-2 p-2 focus:border-amber-400 bg-amber-100 m-8 rounded-md peer" placeholder="Digite algo...">
-            <p class="hidden peer-focus:block">Texto</p>
-        </div>
-        <div>
-            <input type="text" class="border-2 p-2 focus:border-amber-400 bg-amber-100 m-8 rounded-md peer" placeholder="Digite algo...">
-            <p class="hidden peer-focus:block">Texto</p>
-        </div>
-    </form>
-</div>
+
 </body>
 </html>
